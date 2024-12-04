@@ -6,7 +6,7 @@ ifndef part
 endif
 
 # Directories and files
-DAY_DIR = day1/part$(part)/
+DAY_DIR = ./part$(part)/
 
 # Ensure the directory exists
 ifeq ("$(wildcard $(DAY_DIR))","")
